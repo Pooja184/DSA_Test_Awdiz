@@ -1,10 +1,5 @@
 const printPyramid = () => {
-  //     Print a Pyramid Pattern with Spaces:
-  // Input: 3
-  // Output:
-  //   *
-  //  ***
-  // *****
+ 
 
   let range = 3;
   for (let i = 1; i <= range; i++) {
