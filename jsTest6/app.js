@@ -41,4 +41,20 @@ const consecutiveArr = () => {
 
   console.log(count+1);
 };
-consecutiveArr();
+// consecutiveArr();
+
+const rotateStr=()=>{
+     let str1 = "waterbottle";  
+  let str2 = "erbottlewat";
+    if(str1.length != str2.length){
+        console.log(false);
+    }else{
+        let merge=str1+str1;
+        if(merge.includes(str2)){
+            console.log(true)
+        }else{
+            console.log(false)
+        }
+    }
+}
+rotateStr()
